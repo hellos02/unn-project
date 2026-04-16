@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = "ec2-13-125-46-206.ap-northeast-2.compute.amazonaws.com"
+        REGISTRY = "13.125.46.206"
         PROJECT  = "unn-project"
         IMAGE    = "web02"
         TAG      = "${env.BUILD_NUMBER}"
